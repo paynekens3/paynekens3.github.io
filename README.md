@@ -53,5 +53,8 @@ You can clone my repository and run the projects by following these steps:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/paynekens3/<repository-name>.git
+<<<<<<< HEAD
 
+=======
+>>>>>>> 23f06ea76ea2496cafb152f8555737437c8d7a08
 
