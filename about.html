@@ -15,29 +15,41 @@
             background-color: #ffffff;
             max-width: 800px;
             margin: 50px auto;
-            padding: 20px;
+            padding: 30px;
             border-radius: 10px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         h1 {
             font-family: 'Georgia', serif;
-            color: #e91e63; /* Pink color for heading */
-            font-size: 2.5rem;
-            text-align: center;
-            margin-bottom: 20px;
+            color: #e91e63;
+            font-size: 2.8rem;
+            margin-bottom: 30px;
         }
         p {
-            font-size: 1.1rem;
-            line-height: 1.6;
+            font-size: 1.2rem;
+            line-height: 1.8;
             color: #333;
             margin-bottom: 20px;
         }
         p span {
-            color: #e91e63; /* Pink color for emphasis */
+            color: #e91e63;
         }
         .highlight {
             color: #e91e63;
             font-weight: bold;
+        }
+        .about-content {
+            max-width: 750px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .about-content p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        .highlight-section {
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -45,8 +57,18 @@
 
     <section id="about">
         <h1>About Me</h1>
-        <p>Hello, I'm <span class="highlight">McKenzie Payne</span>, a passionate data scientist and aspiring software developer. I love solving complex problems with data and utilizing technology to create impactful solutions. With a strong background in <span class="highlight">R</span>, <span class="highlight">Python</span>, and <span class="highlight">machine learning</span>, I am excited to bridge the gap between data and business decision-making.</p>
-        <p>Currently, I am seeking opportunities to apply my technical skills to real-world challenges, collaborate with innovative teams, and contribute to the development of high-impact projects. If you’re looking for someone who is dedicated, driven, and loves learning, I would love to connect with you!</p>
+
+        <div class="about-content">
+            <p>Hello! I'm <span class="highlight">McKenzie Payne</span>, a passionate data scientist and aspiring software developer. I love solving complex problems with data and utilizing technology to create impactful solutions. With a strong background in <span class="highlight">R</span>, <span class="highlight">Python</span>, and <span class="highlight">machine learning</span>, I am excited to bridge the gap between data and business decision-making.</p>
+
+            <p>Currently, I am seeking opportunities to apply my technical skills to real-world challenges, collaborate with innovative teams, and contribute to the development of high-impact projects. If you’re looking for someone who is dedicated, driven, and loves learning, I would love to connect with you!</p>
+            
+            <div class="highlight-section">
+                <p><span class="highlight">Skills:</span> Data Science, Machine Learning, Python, R, SQL, Predictive Analytics, Data Visualization, Data Management</p>
+                <p><span class="highlight">Goals:</span> Apply my skills to real-world data challenges, collaborate with talented teams, and continue to learn and grow in the tech field.</p>
+            </div>
+        </div>
+
     </section>
 
 </body>
