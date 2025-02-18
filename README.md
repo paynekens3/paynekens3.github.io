@@ -7,6 +7,7 @@ You can check out my live portfolio website here: [**McKenzie Payne Portfolio**]
 - [About Me](about.html)
 - [Contact Me](contact.html)
 - [Experience](experience.html)
+- [My Work](portfolio.html)
 ---
 
 ## Featured Projects 💻
