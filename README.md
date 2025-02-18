@@ -4,6 +4,9 @@ Welcome to my data science portfolio! I am **McKenzie Payne**, a graduate with a
 
 You can check out my live portfolio website here: [**McKenzie Payne Portfolio**](https://paynekens3.github.io)
 
+- [About Me](about.html)
+- [Contact Me](contact.html)
+- [Experience](experience.html)
 ---
 
 ## Featured Projects 💻
